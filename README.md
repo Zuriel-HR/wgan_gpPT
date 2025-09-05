@@ -2,6 +2,7 @@
 WGAN con penalización de gradiente
 
 Este repositorio hace uso de una red neuronal WGAN-GP que toma como datos muestras sintentizadas de malware almacenadas en el archivo: \02_wgan_gp_PT\data\dataset_malware.npy con forma (584, 32, 32, 1).
+Se hace uso de los módulos establecidos en el archivo requirements.txt.
 
 Se procesan las muestras en el archivo \02_wgan_gp_PT\wgan_gp_train.ipynb y crea dos redes neuronales: crítico y generador para después guardarlas en \02_wgan_gp_PT\models. Este archivo "wgan_gp_train.ipynb" tiene una serie de variables que pueden mejorar o empeorar el entrenamiento como:
 1. CRITIC_STEPS: Número de actualizaciones de crítco por actualización de generador.
