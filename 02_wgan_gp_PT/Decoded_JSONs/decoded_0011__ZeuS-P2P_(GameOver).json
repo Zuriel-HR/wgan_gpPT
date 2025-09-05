@@ -1,0 +1,84 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "ZeuS-P2P (GameOver)",
+    "file_size": "46KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Fri May 25 05:39:44 2007\n",
+    "entropy": 6.803633213043213,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "DeviceIoControl",
+            "GetExitCodeProcess",
+            "MapViewOfFile",
+            "GetCurrentThreadId",
+            "RaiseException",
+            "SetConsoleCtrlHandler",
+            "GetCurrentThread"
+          ]
+        },
+        {
+          "libname": "user32.dll",
+          "functions": [
+            "CallNextHookEx"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 1147,
+        "raw_size": 649,
+        "entropy": 0.2062208652496338,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 0,
+        "raw_size": 0,
+        "entropy": 4.9591064453125e-05,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 136,
+        "raw_size": 42,
+        "entropy": 0.000820159912109375,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 139842,
+        "raw_size": 199896,
+        "entropy": 0.011775016784667969,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 22705,
+        "raw_size": 65339,
+        "entropy": 7.950899124145508,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

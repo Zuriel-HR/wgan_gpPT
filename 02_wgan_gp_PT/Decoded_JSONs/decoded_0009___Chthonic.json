@@ -1,0 +1,74 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "_Chthonic",
+    "file_size": "168KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Tue Jun 09 11:57:20 2015\n",
+    "entropy": 6.558077812194824,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "TerminateProcess",
+            "WriteFile",
+            "GetCurrentProcessId"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 170655,
+        "raw_size": 25562,
+        "entropy": 7.946959495544434,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 16397,
+        "raw_size": 173,
+        "entropy": 0.7589578628540039,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 32258,
+        "raw_size": 8981,
+        "entropy": 3.349968433380127,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 67958,
+        "raw_size": 52686,
+        "entropy": 6.972078323364258,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 995,
+        "raw_size": 562,
+        "entropy": 6.436525821685791,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

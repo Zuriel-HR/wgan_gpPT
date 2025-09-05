@@ -1,0 +1,74 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "_Action",
+    "file_size": "116KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Thu Nov 30 14:24:32 2017\n",
+    "entropy": 7.310090065002441,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "DeviceIoControl",
+            "GetExitCodeProcess",
+            "GetCurrentThreadId"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 273757,
+        "raw_size": 146011,
+        "entropy": 7.965115547180176,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 4059,
+        "raw_size": 48,
+        "entropy": 0.4813101291656494,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 26001,
+        "raw_size": 9757,
+        "entropy": 6.494622707366943,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 320945,
+        "raw_size": 162242,
+        "entropy": 5.1226959228515625,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 4964,
+        "raw_size": 60318,
+        "entropy": 7.905373573303223,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

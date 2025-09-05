@@ -1,0 +1,120 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "_Flokibot",
+    "file_size": "29KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Sun Feb 17 00:02:40 2013\n",
+    "entropy": 6.1155900955200195,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "DeviceIoControl",
+            "GetExitCodeProcess",
+            "MapViewOfFile",
+            "GetCurrentThreadId",
+            "RaiseException",
+            "TerminateProcess",
+            "UnmapViewOfFile",
+            "WriteFile",
+            "GetCurrentProcessId",
+            "CreateToolhelp32Snapshot",
+            "VirtualProtect",
+            "SetConsoleMode",
+            "SetConsoleCtrlHandler",
+            "SleepEx",
+            "GetCurrentThread",
+            "GetNativeSystemInfo",
+            "GetThreadTimes",
+            "SetSystemPowerState",
+            "DeleteAtom",
+            "SetThreadAffinityMask",
+            "FlushConsoleInputBuffer",
+            "QueueUserAPC",
+            "LocalCompact",
+            "FreeLibraryAndExitThread"
+          ]
+        },
+        {
+          "libname": "advapi32.dll",
+          "functions": [
+            "GetOverlappedAccessResults"
+          ]
+        },
+        {
+          "libname": "user32.dll",
+          "functions": [
+            "CallNextHookEx"
+          ]
+        },
+        {
+          "libname": "ws2_32.dll",
+          "functions": [
+            "connect"
+          ]
+        },
+        {
+          "libname": "ole32.dll",
+          "functions": [
+            "OleSetClipboard",
+            "OleFlushClipboard"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 35901,
+        "raw_size": 1668,
+        "entropy": 7.848564147949219,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 3301,
+        "raw_size": 5,
+        "entropy": 0.13603782653808594,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 829,
+        "raw_size": 590,
+        "entropy": 0.037131547927856445,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 102560,
+        "raw_size": 39046,
+        "entropy": 0.03185391426086426,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 3134,
+        "raw_size": 447,
+        "entropy": 7.986034393310547,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

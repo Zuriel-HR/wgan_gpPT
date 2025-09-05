@@ -1,0 +1,125 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "ZeuS-P2P (GameOver)",
+    "file_size": "44KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Wed Oct 25 02:14:56 2006\n",
+    "entropy": 7.926703453063965,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "Thread32Next",
+            "SuspendThread",
+            "GetCurrentProcessId",
+            "GetConsoleScreenBufferInfo",
+            "GlobalMemoryStatus",
+            "GetEnvironmentStrings",
+            "SetConsoleCursorPosition",
+            "SetThreadLocale"
+          ]
+        },
+        {
+          "libname": "advapi32.dll",
+          "functions": [
+            "DeleteService",
+            "DeregisterEventSource"
+          ]
+        },
+        {
+          "libname": "ole32.dll",
+          "functions": [
+            "OleLoad"
+          ]
+        },
+        {
+          "libname": "crypt32.dll",
+          "functions": [
+            "CertCloseStore"
+          ]
+        },
+        {
+          "libname": "shell32.dll",
+          "functions": [
+            "SHGetSpecialFolderLocation",
+            "SHChangeNotify"
+          ]
+        },
+        {
+          "libname": "iphlpapi.dll",
+          "functions": [
+            "GetAdaptersAddresses"
+          ]
+        },
+        {
+          "libname": "ws2_32.dll",
+          "functions": [
+            "bind",
+            "socket",
+            "closesocket"
+          ]
+        },
+        {
+          "libname": "ntdll.dll",
+          "functions": [
+            "RtlValidSid"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 27927,
+        "raw_size": 25159,
+        "entropy": 2.3227622509002686,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 3444,
+        "raw_size": 9407,
+        "entropy": 1.7004330158233643,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 29298,
+        "raw_size": 4422,
+        "entropy": 0.7842912673950195,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 604,
+        "raw_size": 2840,
+        "entropy": 7.488537788391113,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 124907,
+        "raw_size": 10501,
+        "entropy": 4.817172527313232,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

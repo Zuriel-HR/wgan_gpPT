@@ -1,0 +1,84 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "ZeuS Over Tor (Sphinx)",
+    "file_size": "74KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Wed Feb 07 13:35:28 2007\n",
+    "entropy": 6.656800270080566,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "DeviceIoControl",
+            "GetExitCodeProcess",
+            "MapViewOfFile",
+            "GetCurrentThreadId",
+            "RaiseException",
+            "SetConsoleCtrlHandler",
+            "GetCurrentThread"
+          ]
+        },
+        {
+          "libname": "user32.dll",
+          "functions": [
+            "CallNextHookEx"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 103241,
+        "raw_size": 69512,
+        "entropy": 6.623509407043457,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 10425,
+        "raw_size": 376,
+        "entropy": 0.44028639793395996,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 43700,
+        "raw_size": 11291,
+        "entropy": 2.7697739601135254,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 180909,
+        "raw_size": 153934,
+        "entropy": 3.398132085800171,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 15239,
+        "raw_size": 71229,
+        "entropy": 7.685398578643799,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

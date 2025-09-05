@@ -1,0 +1,192 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "_Chthonic",
+    "file_size": "62KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Sat Jun 14 16:58:08 2008\n",
+    "entropy": 7.990811824798584,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "CreateRemoteThread",
+            "ReadProcessMemory",
+            "Thread32Next",
+            "MapViewOfFile",
+            "WriteProcessMemory",
+            "Thread32First",
+            "OpenProcess",
+            "SuspendThread",
+            "UnmapViewOfFile",
+            "SwitchToThread",
+            "GetCurrentProcessId",
+            "GetConsoleScreenBufferInfo",
+            "Process32First",
+            "SetThreadContext",
+            "GetNumberOfConsoleInputEvents",
+            "GlobalMemoryStatus",
+            "GetEnvironmentStrings",
+            "LockFile",
+            "GlobalDeleteAtom",
+            "Module32Next",
+            "MapViewOfFileEx",
+            "GlobalCompact",
+            "SetConsoleCursorPosition",
+            "SetThreadLocale",
+            "GenerateConsoleCtrlEvent",
+            "SetPriorityClass",
+            "LockFileEx",
+            "HeapQueryInformation",
+            "RegisterWaitForSingleObject"
+          ]
+        },
+        {
+          "libname": "advapi32.dll",
+          "functions": [
+            "DeleteService",
+            "GetOldestEventLogRecord",
+            "DeregisterEventSource"
+          ]
+        },
+        {
+          "libname": "ole32.dll",
+          "functions": [
+            "OleLoad",
+            "OleGetClipboard",
+            "OleRun",
+            "GetRunningObjectTable",
+            "CoInitializeSecurity"
+          ]
+        },
+        {
+          "libname": "user32.dll",
+          "functions": [
+            "DdeFreeStringHandle",
+            "DdeConnect",
+            "DdeClientTransaction",
+            "DdeUninitialize",
+            "mouse_event",
+            "GetAncestor",
+            "UnhookWindowsHookEx",
+            "UnhookWinEvent",
+            "EnumDisplayMonitors"
+          ]
+        },
+        {
+          "libname": "msvcrt.dll",
+          "functions": [
+            "getenv"
+          ]
+        },
+        {
+          "libname": "crypt32.dll",
+          "functions": [
+            "CertCloseStore",
+            "PFXExportCertStoreEx",
+            "CertVerifySubjectCertificateContext",
+            "CertAddCertificateLinkToStore"
+          ]
+        },
+        {
+          "libname": "rpcrt4.dll",
+          "functions": [
+            "NdrOleFree",
+            "NdrDllGetClassObject",
+            "NdrDllUnregisterProxy",
+            "NdrDllCanUnloadNow"
+          ]
+        },
+        {
+          "libname": "shell32.dll",
+          "functions": [
+            "SHGetSpecialFolderLocation",
+            "SHChangeNotify"
+          ]
+        },
+        {
+          "libname": "iphlpapi.dll",
+          "functions": [
+            "GetAdaptersAddresses"
+          ]
+        },
+        {
+          "libname": "ws2_32.dll",
+          "functions": [
+            "bind",
+            "htons",
+            "socket",
+            "closesocket",
+            "recv",
+            "inet_addr",
+            "send",
+            "listen",
+            "ioctlsocket"
+          ]
+        },
+        {
+          "libname": "ntdll.dll",
+          "functions": [
+            "NtSetSecurityObject",
+            "RtlValidSid",
+            "EtwEventUnregister",
+            "EtwEventWrite"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 3170,
+        "raw_size": 17640,
+        "entropy": 3.757786512374878,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 200,
+        "raw_size": 3907,
+        "entropy": 1.1237785816192627,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 32207,
+        "raw_size": 24460,
+        "entropy": 3.396791934967041,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 163,
+        "raw_size": 468,
+        "entropy": 7.973738193511963,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 122234,
+        "raw_size": 29196,
+        "entropy": 5.391788482666016,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

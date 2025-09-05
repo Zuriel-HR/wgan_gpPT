@@ -1,0 +1,78 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "_Citadel",
+    "file_size": "212KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Tue Feb 03 02:08:32 2015\n",
+    "entropy": 7.103116989135742,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "DeviceIoControl",
+            "GetExitCodeProcess",
+            "GetCurrentThreadId",
+            "RaiseException",
+            "WriteFile",
+            "VirtualProtect",
+            "LocalCompact"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 124507,
+        "raw_size": 160891,
+        "entropy": 7.202707290649414,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 2632,
+        "raw_size": 1,
+        "entropy": 0.0663752555847168,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 36,
+        "raw_size": 11,
+        "entropy": 0.2019641399383545,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 190140,
+        "raw_size": 25806,
+        "entropy": 0.006342411041259766,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 13063,
+        "raw_size": 2493,
+        "entropy": 7.9458112716674805,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

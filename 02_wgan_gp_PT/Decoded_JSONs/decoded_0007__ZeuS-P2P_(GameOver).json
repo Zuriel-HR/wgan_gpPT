@@ -1,0 +1,95 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "ZeuS-P2P (GameOver)",
+    "file_size": "65KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Sun Sep 17 06:13:52 2006\n",
+    "entropy": 7.780779838562012,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "DeviceIoControl",
+            "GetExitCodeProcess",
+            "MapViewOfFile",
+            "GetCurrentThreadId",
+            "RaiseException",
+            "GetCurrentProcessId",
+            "SetConsoleMode",
+            "GlobalMemoryStatus",
+            "GetEnvironmentStrings",
+            "SetConsoleCtrlHandler",
+            "GetCurrentThread"
+          ]
+        },
+        {
+          "libname": "shell32.dll",
+          "functions": [
+            "SHGetSpecialFolderLocation",
+            "SHChangeNotify"
+          ]
+        },
+        {
+          "libname": "user32.dll",
+          "functions": [
+            "CallNextHookEx"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 9367,
+        "raw_size": 38390,
+        "entropy": 1.3281362056732178,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 369,
+        "raw_size": 421,
+        "entropy": 0.9850320816040039,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 9915,
+        "raw_size": 3704,
+        "entropy": 1.8117990493774414,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 131352,
+        "raw_size": 36356,
+        "entropy": 5.006970405578613,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 4439,
+        "raw_size": 37586,
+        "entropy": 7.8153486251831055,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

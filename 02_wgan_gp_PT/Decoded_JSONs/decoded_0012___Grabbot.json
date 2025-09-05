@@ -1,0 +1,114 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "_Grabbot",
+    "file_size": "119KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Wed Jul 22 17:30:08 2020\n",
+    "entropy": 7.138119697570801,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "DeviceIoControl",
+            "GetExitCodeProcess",
+            "MapViewOfFile",
+            "GetCurrentThreadId",
+            "RaiseException",
+            "TerminateProcess",
+            "WriteFile",
+            "VirtualProtect",
+            "SetConsoleMode",
+            "SetConsoleCtrlHandler",
+            "SleepEx",
+            "GetCurrentThread",
+            "GetThreadTimes",
+            "SetSystemPowerState",
+            "DeleteAtom",
+            "GetPriorityClass",
+            "GetThreadPriority",
+            "SetThreadAffinityMask",
+            "FlushConsoleInputBuffer",
+            "QueueUserAPC",
+            "LocalCompact",
+            "SetProcessAffinityMask",
+            "FreeLibraryAndExitThread"
+          ]
+        },
+        {
+          "libname": "user32.dll",
+          "functions": [
+            "UnregisterDeviceNotification",
+            "CallNextHookEx"
+          ]
+        },
+        {
+          "libname": "advapi32.dll",
+          "functions": [
+            "GetOverlappedAccessResults"
+          ]
+        },
+        {
+          "libname": "ole32.dll",
+          "functions": [
+            "OleSetClipboard",
+            "OleFlushClipboard"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 167494,
+        "raw_size": 32396,
+        "entropy": 7.931241989135742,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 3581,
+        "raw_size": 5,
+        "entropy": 0.4071159362792969,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 2729,
+        "raw_size": 897,
+        "entropy": 2.8047304153442383,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 412848,
+        "raw_size": 87541,
+        "entropy": 0.049025774002075195,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 2373,
+        "raw_size": 807,
+        "entropy": 7.9048075675964355,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "file_info": {
+    "file_name": "",
+    "software_family": "ZeuS-P2P (GameOver)",
+    "file_size": "57KB",
+    "hashes": {
+      "md5": "",
+      "sha256": ""
+    }
+  },
+  "analysis": {
+    "compilation_timestamp": "Thu Oct 25 03:04:00 2007\n",
+    "entropy": 7.968061447143555,
+    "imports": {
+      "dlls": [
+        {
+          "libname": "kernel32.dll",
+          "functions": [
+            "SuspendThread",
+            "GetCurrentProcessId",
+            "GetConsoleScreenBufferInfo",
+            "GlobalMemoryStatus",
+            "GetEnvironmentStrings",
+            "SetThreadLocale",
+            "LockFileEx",
+            "HeapQueryInformation"
+          ]
+        },
+        {
+          "libname": "advapi32.dll",
+          "functions": [
+            "DeleteService"
+          ]
+        },
+        {
+          "libname": "ole32.dll",
+          "functions": [
+            "OleLoad",
+            "OleRun",
+            "GetRunningObjectTable"
+          ]
+        },
+        {
+          "libname": "user32.dll",
+          "functions": [
+            "DdeFreeStringHandle"
+          ]
+        },
+        {
+          "libname": "shell32.dll",
+          "functions": [
+            "SHGetSpecialFolderLocation",
+            "SHChangeNotify"
+          ]
+        }
+      ],
+      "suspicious_imports": {}
+    },
+    "strings": {
+      "total_strings": 0,
+      "detalles": [],
+      "suspicious_strings": []
+    },
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 27640,
+        "raw_size": 32297,
+        "entropy": 7.115667343139648,
+        "entropy_block": []
+      },
+      {
+        "name": ".idata",
+        "virtual_size": 4420,
+        "raw_size": 6611,
+        "entropy": 2.5594351291656494,
+        "entropy_block": []
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 231988,
+        "raw_size": 88898,
+        "entropy": 6.04349946975708,
+        "entropy_block": []
+      },
+      {
+        "name": ".data",
+        "virtual_size": 1835,
+        "raw_size": 1634,
+        "entropy": 7.990805625915527,
+        "entropy_block": []
+      },
+      {
+        "name": ".extra_high_entropy",
+        "virtual_size": 93403,
+        "raw_size": 13057,
+        "entropy": 6.1510725021362305,
+        "entropy_block": []
+      }
+    ],
+    "resources": {
+      "total_size": 0,
+      "details": []
+    }
+  }
+}
