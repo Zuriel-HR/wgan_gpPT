@@ -5,10 +5,10 @@ Este repositorio hace uso de una red neuronal WGAN-GP que toma como datos muestr
 Se hace uso de los módulos establecidos en el archivo requirements.txt.
 
 Se procesan las muestras en el archivo \02_wgan_gp_PT\wgan_gp_train.ipynb y crea dos redes neuronales: crítico y generador para después guardarlas en \02_wgan_gp_PT\models. Este archivo "wgan_gp_train.ipynb" tiene una serie de variables que pueden mejorar o empeorar el entrenamiento como:
-1. CRITIC_STEPS: Número de actualizaciones de crítco por actualización de generador.
-2. BATCH_SIZE: Lotes en los que se divide la base de datos.
-3. Z_DIM: Dimensión del espacio latente.
-4. GP_WEIGHT: Coeficiente de regularización que controla cuánto peso tiene el gradient penalty (c_gp) dentro de la pérdida total del crítico.
+1. CRITIC_STEPS (2): Número de actualizaciones de crítco por actualización de generador.
+2. BATCH_SIZE (128): Lotes en los que se divide la base de datos.
+3. Z_DIM (256): Dimensión del espacio latente.
+4. GP_WEIGHT (5.0): Coeficiente de regularización que controla cuánto peso tiene el gradient penalty (c_gp) dentro de la pérdida total del crítico.
 
 
 Después es natural ejecutar los demás archivos:
